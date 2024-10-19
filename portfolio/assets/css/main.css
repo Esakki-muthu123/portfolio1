@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* =====nav====== */
+nav{
+    
+    padding: 20px 10px;
+    background-color: black;
+    color: white;
+}
+nav>.port{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>.port>.flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+nav>.port>.flex img{
+    width: 60px;
+    background-color: #fff;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    padding: 7px;
+    border-radius: 20px;
+    transition: 1s;
+
+    
+    
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+nav button{
+    width: 150px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+/* ===========home page=========== */
+.homepage-one{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 80px 0;
+    background-image: linear-gradient(90deg,rgb(26,24,24)70%,rgb(10,156,107)30%);
+    align-items: center;
+}
+.homepage-one>.contant-one{
+    
+    width: 350px;
+    text-align: center;
+    
+}
+.homepage-one>.contant-one button{
+    border: 3px solid rgb(10, 156, 107);
+    background-color: rgb(26, 24, 24);
+    color: wheat;
+    width: 200px;
+    padding: 15px;
+}
+.homepage-one>.contant-one i{
+    border-bottom: 3px solid rgb(10, 156, 107);
+    width: 50px;
+    padding: 16px;
+    background-color: rgb(10, 156, 107);
+    color: black;
+}
+.homepage-one>.contant-one h3{
+    font-size: 23px;
+    color:rgb(10, 156, 107);
+}
+.homepage-one>.contant-one h1{
+    font-size: 60px;
+    padding: 20px 0;
+    color: white;
+}
+.homepage-one>.contant-tow>.img-par img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.homepage-one>.contant-tow>.img-par {
+    width: 400px;
+    border-radius:1px solid red;
+}
+.homepage-one>.contant-three i{
+   
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 20px;width: 50px;
+    color: white;
+    transform: 1s;
+    text-align: center;
+}
+.homepage-one>.contant-three i:hover{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+/* ==================about====================== */
+.about{
+    padding: 80px 0;
+    
+    color: wheat;
+}
+.about>.flex{
+    display: flex;
+    justify-content: center;
+    
+    gap: 60px;
+}
+.about>.flex>.right-con{
+    width: 45%;
+  
+}
+.about>.flex>.right-con h1{
+    font-size: 60px;
+    padding-bottom: 30px;
+    color: rgba(100, 221, 20, 0.911);
+}
+.about>.flex>.right-con p{
+    padding-bottom: 30px;
+    font-size: 20px;
+    color: rgb(70, 67, 67);
+}
+.about>.flex>.right-con>.flexin{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.about>.flex>.left-con img{
+    width: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+.about>.flex>.left-con {
+    width: 35%;
+  
+   
+}
+/* =======skils======= */
+.skills{
+    background-color: rgb(10,156,107);
+    padding: 60px 0;
+    
+}
+.skills>.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.skills>.flex>.box{
+   
+    width: 300px;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 20px;
+    background-color: rgb(26,24,24);
+    
+}
+.skills>.flex>.box>.imgpar img{
+    width: 70px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.skills>.flex>.box h1{
+     font-size: 80px;
+     padding: 20px 0;
+     color: rgba(100, 221, 20, 0.911);
+}
+.skills>.flex>.box h2{
+    font-weight: bold;
+    color: white;
+}
+.skills h1{
+    font-size: 60px ;
+    padding-bottom: 50px;
+    color:black;
+    text-align: center;
+}
+/* =====service==== */
+.service{
+    padding: 70px 0;
+    background-color: #d4d0d0;
+}
+.service>.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.service>.flex>.box>.flexin{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.service>.flex>.box{
+    width: 500px;
+
+    padding: 50px 10px;
+    border-radius: 20px ;
+    background-color: #fff;
+}
+.service>.flex>.box>.flexin>.right h3{
+    font-size: 0px;
+    padding-bottom: 15px;
+}
+.service>.flex>.box>.flexin>.right p{
+    font-size: 20px;
+}
+.service>.heading h3{
+    color: rgba(100, 221, 20, 0.911);
+font-size: 28px;
+}
+.service>.heading h1{
+    font-size: 80px;
+    padding-bottom: 30px ;
+    color: rgb(70, 67, 67);
+}
+.service>.heading {
+    text-align: center;
+}
+/* =============contact============ */
+#contact {
+    padding: 60px 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#contact .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    flex: 1;
+    min-width: 240px;
+    margin: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item .icon img {
+    width: 50px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.contact-item h2 {
+    margin-bottom: 10px;
+}
+
+
+.forms {
+    width: 95%;
+    /* max-width: 500px; */
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    /* background-color: #ffffff; */
+    background-image: linear-gradient(to bottom right, #7a7a7a,#ececec );
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.inpu{
+    display: flex;
+}
+input::placeholder {
+    font-size: 13px;
+}
+textarea::placeholder{
+    font-size: 13px;
+    padding-left: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+    border: solid 1px rgb(204, 201, 201);
+}
+
+button {
+    padding: 10px 20px;
+    width: 20%;
+    background-image: linear-gradient(to bottom right,#1f1e1e,#353535);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b3b3b3;
+    color: #ffffff;
+    border-color: #2c3738;
+}
+.mes-btn button{
+    text-align: center;
+}
+/* =======footer======= */
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+   background-color: rgb(10, 156, 107);
+    padding: 20px;
+}
+.footer>.box3>.flex{
+    display: flex;
+    gap: 10px;
+}
